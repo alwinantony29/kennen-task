@@ -10,7 +10,7 @@ body {
   background-image: linear-gradient(to bottom right, #ff8a00, #e52e71);
 }
 .card {
-  height: 38rem;
+  height: 95vh;
   width: 20rem;
   margin: 1rem;
   border-radius: 2rem;
@@ -18,21 +18,24 @@ body {
 }
 .top-div {
   width: 20rem;
-  height: 10rem;
+  height: 30%;
   border-radius: 2rem 2rem 0 0;
   background-color: blue;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .top-div img {
-  object-fit: contain;
+  object-fit: auto;
   width: 20rem;
   border-radius: 2rem 2rem 0 0;
+  height: auto;
 }
 .hero-div {
   width: 10rem;
   height: 10rem;
   position: absolute;
-  bottom: -6rem;
+  bottom: -5rem;
   left: 5rem;
   border-radius: 10rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -48,9 +51,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
   padding: 1.5rem;
-  padding-top: 4rem;
+  padding-top: 15%;
+  justify-content: space-evenly;
+  height:60%;
 }
 .bottom-div button {
   background-color: yellow;
@@ -63,9 +67,6 @@ body {
   margin: 0;
   color: grey;
   font-size: 1.1rem;
-}
-.bottom-div h2{
-  margin: 4rem 0 0 0;
 }
 .account-insights {
   display: flex;
