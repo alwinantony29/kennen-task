@@ -11,9 +11,9 @@
   background-image: linear-gradient(to bottom right, #ff8a00, #e52e71);
 }
 .card {
-  height: 95vh;
+  height: 90vh;
   width: 20rem;
-  margin: 1rem;
+  margin:5vh;
   border-radius: 2rem;
   background-color: white;
 }
