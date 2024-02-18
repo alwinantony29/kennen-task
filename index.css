@@ -3,21 +3,21 @@ body {
 }
 .root-div {
   font-family: "Roboto", sans-serif;
-  height: auto;
+  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   background-image: linear-gradient(to bottom right, #ff8a00, #e52e71);
 }
 .card {
-  height: 40rem;
-  width: 26rem;
-  margin: 2rem;
+  height: 38rem;
+  width: 20rem;
+  margin: 1rem;
   border-radius: 2rem;
   background-color: white;
 }
 .top-div {
-  width: 26rem;
+  width: 20rem;
   height: 10rem;
   border-radius: 2rem 2rem 0 0;
   background-color: blue;
@@ -25,15 +25,15 @@ body {
 }
 .top-div img {
   object-fit: contain;
-  width: 26rem;
+  width: 20rem;
   border-radius: 2rem 2rem 0 0;
 }
 .hero-div {
   width: 10rem;
   height: 10rem;
   position: absolute;
-  bottom: -9rem;
-  left: 8rem;
+  bottom: -6rem;
+  left: 5rem;
   border-radius: 10rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
@@ -50,7 +50,7 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 1.5rem;
-  padding-top: 7rem;
+  padding-top: 4rem;
 }
 .bottom-div button {
   background-color: yellow;
