@@ -3,44 +3,44 @@ body {
 }
 .root-div {
   font-family: "Roboto", sans-serif;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 100vw;
   display: flex;
   justify-content: center;
   background-image: linear-gradient(to bottom right, #ff8a00, #e52e71);
 }
 .card {
-  height: 90vh;
-  width: 25vw;
+  height: 40rem;
+  width: 26rem;
   margin: 2rem;
   border-radius: 2rem;
   background-color: white;
 }
 .top-div {
-  width: 25vw;
-  height: 30vh;
+  width: 26rem;
+  height: 10rem;
   border-radius: 2rem 2rem 0 0;
   background-color: blue;
   position: relative;
 }
 .top-div img {
   object-fit: contain;
-  width: 25vw;
+  width: 26rem;
   border-radius: 2rem 2rem 0 0;
 }
 .hero-div {
-  width: 10vw;
-  height: 10vw;
+  width: 10rem;
+  height: 10rem;
   position: absolute;
-  bottom: -5vw;
-  left: 8vw;
+  bottom: -9rem;
+  left: 8rem;
   border-radius: 10rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 .hero-div img {
-  width: 10vw;
-  height: 10vw;
+  width: 10rem;
+  height: 10rem;
   object-fit: cover;
   border-radius: 10rem;
 }
@@ -50,6 +50,7 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 1.5rem;
+  padding-top: 7rem;
 }
 .bottom-div button {
   background-color: yellow;
@@ -64,7 +65,7 @@ body {
   font-size: 1.1rem;
 }
 .bottom-div h2{
-  margin: 3rem 0 0 0;
+  margin: 4rem 0 0 0;
 }
 .account-insights {
   display: flex;
